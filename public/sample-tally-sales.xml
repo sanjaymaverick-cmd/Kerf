@@ -1,0 +1,62 @@
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDATA>
+        <TALLYMESSAGE>
+          <VOUCHER VCHTYPE="Sales" ACTION="Create">
+            <DATE>20260818</DATE>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>S-1108</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Mehta Modular</PARTYLEDGERNAME>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>ER32 Collet Set</STOCKITEMNAME>
+              <RATE>1650.00/set</RATE>
+              <ACTUALQTY>1 set</ACTUALQTY>
+              <BILLEDQTY>1 set</BILLEDQTY>
+              <AMOUNT>1650.00</AMOUNT>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>TCT Saw Blade 300x3.2</STOCKITEMNAME>
+              <RATE>1850.00/pcs</RATE>
+              <ACTUALQTY>6 pcs</ACTUALQTY>
+              <BILLEDQTY>6 pcs</BILLEDQTY>
+              <AMOUNT>11100.00</AMOUNT>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Spindle Oil 5L</STOCKITEMNAME>
+              <RATE>650.00/can</RATE>
+              <ACTUALQTY>2 can</ACTUALQTY>
+              <BILLEDQTY>2 can</BILLEDQTY>
+              <AMOUNT>1300.00</AMOUNT>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <VOUCHER VCHTYPE="Sales" ACTION="Create">
+            <DATE>20260819</DATE>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>S-1109</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Sharma Joinery</PARTYLEDGERNAME>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>ER32 Collet Set</STOCKITEMNAME>
+              <RATE>1650.00/set</RATE>
+              <ACTUALQTY>1 set</ACTUALQTY>
+              <BILLEDQTY>1 set</BILLEDQTY>
+              <AMOUNT>1650.00</AMOUNT>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>HSS Planer Knife 400mm</STOCKITEMNAME>
+              <RATE>890.00/pcs</RATE>
+              <ACTUALQTY>2 pcs</ACTUALQTY>
+              <BILLEDQTY>2 pcs</BILLEDQTY>
+              <AMOUNT>1780.00</AMOUNT>
+            </ALLINVENTORYENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>
